@@ -1,3 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
-  background-color: antiquewhite;
+  background-color: #FFFF;
+  font-family: 'Heebo', sans-serif;;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 33px;
+  padding: 27px 60px 0 0;
+}
+
+.header-text {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+
+.introduction__section {
+  padding: 0 0 50px 0;
+}
+
+.introduction-box {
+  display: flex;
+  justify-content: center;
+  margin: 158px 0 0 0;
+  gap: 106px;
+  flex-wrap: wrap;
+}
+
+.introduction__text {
+  flex-basis: 50%;
+  flex-shrink: 0;
+}
+
+.introduction__button {
+  margin: 38px 0 0 0;
+  padding: 17px 21px;
+  width: 211px;
+  border-radius: 2px;
+  background-color: rgba(255, 100, 100, 1);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.introduction__photo {
+  flex-shrink: 0;
+}
+
+.introduction__header {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: rgba(33, 36, 61, 1);
+}
+
+.introduction__paragraph {
+  margin: 40px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(33, 36, 61, 1);
+  width: 497px;
+}
+
+.introduction__photo {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  box-shadow: -5px 15px #EDF7FA;
 }
