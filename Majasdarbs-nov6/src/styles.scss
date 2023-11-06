@@ -92,6 +92,7 @@ body {
   background-image: url(assets/images/Background-image.png);
   width: 100%;
   padding: 20px;
+  min-width: 500px;
   background-size: cover;
 }
 
@@ -302,8 +303,8 @@ body {
   }
 
   .posts-section {
-    max-width: 360px;
-    min-width: none;
+    max-width: 400px;
+    min-width: 0;
   }
 
   .image-work {
